@@ -7,8 +7,8 @@ const Footer = () => {
     services: [
       { name: 'Desarrollo de Software', href: '#services' },
       { name: 'Automatización', href: '#services' },
-      { name: 'Análisis de Datos', href: '#services' },
-      { name: 'Seguridad Informática', href: '#services' }
+      { name: 'Inteligencia Artificial & RAG', href: '#services' },
+      { name: 'Chatbots & Atención al Cliente', href: '#services' }
     ],
     company: [
       { name: 'Nosotros', href: '#about' },
@@ -59,14 +59,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-10 h-10 bg-primary-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg">DS</span>
+              <div className="w-10 h-10 rounded-full overflow-hidden">
+                <img src="/logo.png" alt="Duck Solution Logo" className="w-full h-full object-cover" />
               </div>
               <span className="text-xl font-bold">Duck Solution</span>
             </div>
             <p className="text-gray-400 mb-6">
               Convertimos ideas innovadoras en soluciones reales. 
-              Especialistas en desarrollo de software y automatizaciones.
+              Especialistas en IA, RAG, desarrollo de software y automatizaciones.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social, index) => (

@@ -80,8 +80,8 @@ const About = () => {
 
           <div className="relative">
             <div className="bg-gradient-to-br from-primary-100 to-primary-200 rounded-2xl p-8">
-              <div className="w-32 h-32 bg-primary-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-white font-bold text-4xl">DS</span>
+              <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6">
+                <img src="/logo.png" alt="Duck Solution Logo" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 text-center mb-4">
                 Nuestra Visión

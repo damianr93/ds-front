@@ -25,12 +25,12 @@ const Services = () => {
     {
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
         </svg>
       ),
-      title: "Análisis de Datos",
-      description: "Transformamos tus datos en insights accionables que impulsan la toma de decisiones estratégicas.",
-      features: ["Dashboards Interactivos", "Reportes Automatizados", "Machine Learning", "Business Intelligence"]
+      title: "Inteligencia Artificial & RAG",
+      description: "Implementamos soluciones de IA avanzadas con RAG (Retrieval-Augmented Generation) para potenciar la inteligencia empresarial.",
+      features: ["Sistemas RAG Personalizados", "Consultoría en IA", "Automatización Inteligente", "Análisis Predictivo"]
     },
     {
       icon: (
@@ -45,12 +45,12 @@ const Services = () => {
     {
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
         </svg>
       ),
-      title: "Migración a la Nube",
-      description: "Te ayudamos a migrar y optimizar tu infraestructura en la nube para mayor escalabilidad y eficiencia.",
-      features: ["Estrategia de Migración", "Optimización de Costos", "Backup y Recuperación", "Soporte 24/7"]
+      title: "Chatbots & Atención al Cliente",
+      description: "Desarrollamos chatbots inteligentes para canales de comunicación y atención al cliente, mejorando la experiencia del usuario.",
+      features: ["Chatbots Conversacionales", "Integración Multi-canal", "Atención 24/7", "Análisis de Conversaciones"]
     },
     {
       icon: (

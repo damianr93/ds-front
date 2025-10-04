@@ -13,8 +13,8 @@ const Hero = () => {
       <div className="container-max-width section-padding relative z-10">
         <div className="text-center max-w-4xl mx-auto">
           <div className="mb-8">
-            <div className="w-20 h-20 bg-primary-600 rounded-full flex items-center justify-center mx-auto mb-6 animate-float">
-              <span className="text-white font-bold text-2xl">DS</span>
+            <div className="w-20 h-20 rounded-full overflow-hidden mx-auto mb-6 animate-float">
+              <img src="/logo.png" alt="Duck Solution Logo" className="w-full h-full object-cover" />
             </div>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 animate-fade-in">
               Convertimos
@@ -59,11 +59,11 @@ const Hero = () => {
             <div className="text-center">
               <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Soluciones Informáticas</h3>
-              <p className="text-gray-600">Tecnología que impulsa tu crecimiento</p>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Inteligencia Artificial</h3>
+              <p className="text-gray-600">IA y RAG para potenciar tu negocio</p>
             </div>
           </div>
         </div>

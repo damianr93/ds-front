@@ -29,8 +29,8 @@ const Navbar = () => {
       <div className="container-max-width">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-primary-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-lg">DS</span>
+            <div className="w-10 h-10 rounded-full overflow-hidden">
+              <img src="/logo.png" alt="Duck Solution Logo" className="w-full h-full object-cover" />
             </div>
             <span className="text-xl font-bold text-gray-900">Duck Solution</span>
           </div>

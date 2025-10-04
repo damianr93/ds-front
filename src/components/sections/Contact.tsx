@@ -69,9 +69,9 @@ const Contact = () => {
   const services = [
     "Desarrollo de Software",
     "Automatización de Procesos",
-    "Análisis de Datos",
+    "Inteligencia Artificial & RAG",
     "Seguridad Informática",
-    "Migración a la Nube",
+    "Chatbots & Atención al Cliente",
     "Consultoría Tecnológica"
   ]
 
