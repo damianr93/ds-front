@@ -12,9 +12,9 @@ const Footer = () => {
     ],
     company: [
       { name: 'Nosotros', href: '#about' },
+      { name: 'Equipo', href: '#team' },
       { name: 'Clientes', href: '#clients' },
-      { name: 'Contacto', href: '#contact' },
-      { name: 'Blog', href: '#' }
+      { name: 'Contacto', href: '#contact' }
     ],
     legal: [
       { name: 'Política de Privacidad', href: '#' },
